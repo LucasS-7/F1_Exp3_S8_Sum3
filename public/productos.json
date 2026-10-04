@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "nombre": "Control Inalámbrico Pro X",
+    "categoria": "accesorios",
+    "precio": 24990,
+    "imagen": "img/control.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Consola NextGen 1TB",
+    "categoria": "consolas",
+    "precio": 349990,
+    "imagen": "img/consola1.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "Audífonos Gamer Surround 7.1",
+    "categoria": "accesorios",
+    "precio": 39990,
+    "imagen": "img/headset.jpg"
+  },
+  {
+    "id": 4,
+    "nombre": "Consola RetroMini Edition",
+    "categoria": "consolas",
+    "precio": 89990,
+    "imagen": "img/retromini.jpg"
+  },
+  {
+    "id": 5,
+    "nombre": "Mouse Óptico RGB Strike",
+    "categoria": "accesorios",
+    "precio": 17990,
+    "imagen": "img/mouse.jpg"
+  },
+  {
+    "id": 6,
+    "nombre": "Consola Portátil GoPlay",
+    "categoria": "consolas",
+    "precio": 159990,
+    "imagen": "img/goplay.jpg"
+  },
+  {
+    "id": 7,
+    "nombre": "Teclado Mecánico Gamer TK80",
+    "categoria": "accesorios",
+    "precio": 45990,
+    "imagen": "img/teclado.jpg"
+  },
+  {
+    "id": 8,
+    "nombre": "Volante Gamer con Pedales Turbo",
+    "categoria": "accesorios",
+    "precio": 59990,
+    "imagen": "img/volante.jpg"
+  }
+]

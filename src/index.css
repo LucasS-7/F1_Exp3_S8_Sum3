@@ -1,0 +1,203 @@
+/* estilos de GamerZone, tema oscuro gamer */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #14162b;
+  color: #eaeaf2;
+  font-family: "Segoe UI", Verdana, sans-serif;
+}
+
+.navbar {
+  background-color: #1b1f3b;
+  border-bottom: 3px solid #6c5ce7;
+  padding: 14px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.navbar .marca {
+  font-weight: bold;
+  color: #6c5ce7;
+  font-size: 1.3rem;
+}
+
+.navbar .categorias button {
+  background: none;
+  border: none;
+  color: #eaeaf2;
+  margin-right: 14px;
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+
+.navbar .categorias button.activa {
+  color: #6c5ce7;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.btn-carrito-toggle {
+  background-color: #6c5ce7;
+  border: none;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-carrito-toggle:hover {
+  background-color: #5849c4;
+}
+
+.hero {
+  background: linear-gradient(120deg, #1b1f3b 0%, #2b2f5b 100%);
+  padding: 50px 20px;
+  text-align: center;
+  border-bottom: 2px solid #6c5ce7;
+}
+
+.contenido {
+  display: flex;
+  gap: 24px;
+  padding: 32px 24px;
+  align-items: flex-start;
+}
+
+.catalogo {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card-producto {
+  background-color: #1e2140;
+  border: 1px solid #33366b;
+  border-radius: 8px;
+  width: 220px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-producto img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  background-color: #0f1126;
+}
+
+.card-producto .info {
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.badge-categoria {
+  background-color: #33366b;
+  color: #eaeaf2;
+  font-size: 0.75rem;
+  padding: 2px 8px;
+  border-radius: 10px;
+  align-self: flex-start;
+  text-transform: capitalize;
+}
+
+.precio {
+  color: #6c5ce7;
+  font-weight: bold;
+}
+
+.btn-agregar {
+  background-color: #6c5ce7;
+  border: none;
+  color: #fff;
+  padding: 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: auto;
+}
+
+.btn-agregar.en-carrito {
+  background-color: #0f6e56;
+}
+
+.btn-agregar:hover {
+  opacity: 0.9;
+}
+
+.panel-carrito {
+  width: 280px;
+  background-color: #1e2140;
+  border: 1px solid #33366b;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.item-carrito {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #33366b;
+  padding: 8px 0;
+  font-size: 0.9rem;
+}
+
+.btn-quitar {
+  background: none;
+  border: none;
+  color: #ff8a8a;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.btn-quitar:hover {
+  color: #ff4d4d;
+}
+
+.carrito-vacio {
+  color: #a0a0b8;
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.mensaje-error {
+  background-color: #4a1f2b;
+  border: 1px solid #a33;
+  color: #ffb3b3;
+  padding: 10px 15px;
+  border-radius: 6px;
+}
+
+.mensaje-cargando {
+  color: #a0a0b8;
+  text-align: center;
+  width: 100%;
+}
+
+footer {
+  background-color: #0f1126;
+  border-top: 2px solid #6c5ce7;
+  padding: 20px;
+  text-align: center;
+  color: #a0a0b8;
+}
+
+@media (max-width: 700px) {
+  .contenido {
+    flex-direction: column;
+  }
+
+  .panel-carrito {
+    width: 100%;
+  }
+}
